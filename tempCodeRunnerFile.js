@@ -1,0 +1,1 @@
+obj.acts.find(actObj => actObj.number == act.number)

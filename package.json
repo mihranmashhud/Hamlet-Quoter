@@ -1,0 +1,14 @@
+{
+  "name": "hamlet_play_quoter",
+  "version": "1.0.0",
+  "description": "Quotes the play Hamlet",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo hello"
+  },
+  "author": "Mihran Mashhud",
+  "license": "MIT",
+  "dependencies": {
+    "jsonfile": "^5.0.0"
+  }
+}
