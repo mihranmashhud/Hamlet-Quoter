@@ -307,9 +307,8 @@ jsonfile
       let fileName = `./page${quotePages[i].number}.html`
       fs.writeFile(fileName, buildHtml(output), err => console.log)
     }
-
-    const fileName = "./index.html"
-    const indexHTML = buildHtml("")
-    fs.writeFile(fileName, indexHTML, err => console.log(err))
+    // const fileName = "./index.html"
+    // const indexHTML = buildHtml("")
+    // fs.writeFile(fileName, indexHTML, err => console.log(err))
   })
   .catch(err => console.error(err))
