@@ -295,6 +295,9 @@ jsonfile
           <b>PAGE ${quotePages[i].number}</b>
         </h3>\n
         ${quotePages[i].html}
+        <ul class="pagination">\n
+          ${pageButtons}
+        </ul>
         
       `
       // if (i + 1 < quotePages.length) {
